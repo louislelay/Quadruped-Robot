@@ -24,9 +24,9 @@ xacro description/quadruped_robot.xacro > simulation/models/quadruped_robot_fixe
 ```
 
 
-And to run the model, in the same terminal do : 
+And to run the model, in the same terminal do (don't forget to adapt to your path) : 
 
 ```bash
-export GAZEBO_MODEL_PATH=/home/Quadruped-Robot/Quadruped_Robot_Sim/simulation/models
+export GAZEBO_MODEL_PATH=/home/louis/Quadruped-Robot/Quadruped_Robot_Sim/simulation/models
 gazebo simulation/worlds/quadruped_robot_fixed.world
 ```
