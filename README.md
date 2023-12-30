@@ -12,7 +12,7 @@ This is the 3d model of the leg, following the 3d printed version :
 
 From this, I've find the kinematics and I've tested them, I'm now able to control them and know exactly where will be the end of the leg.
 
-<iframe width="914" height="514" src="https://www.youtube.com/embed/jixDbttGpBg" title="v1 quadruped robot leg test" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=jixDbttGpBg&ab_channel=LouisLeLay
 
 The next step is now to 3d print the rest and test it.
 
