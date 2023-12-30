@@ -10,11 +10,11 @@ This is the 3d model of the leg, following the 3d printed version :
 
 ![3d Printed Version](https://github.com/louislelay/Quadruped-Robot/blob/main/Images/leg.jpg)
 
-From this, I've find the kinematics and I've tested them, I'm now able to control them and know exactly where will be the end of the leg.
+From this, I've find the kinematics and I've tested them, I'm now able to control them and know exactly where will be the end of the leg.https://www.youtube.com/watch?v=jixDbttGpBg
 
 https://www.youtube.com/watch?v=jixDbttGpBg&ab_channel=LouisLeLay
 
-[![Video](https://img.youtube.com/vi/jXnoFqcAkQA/maxresdefault.jpg)](https://www.youtube.com/watch?v=jixDbttGpBg&ab_channel=LouisLeLay)
+[![Video](https://img.youtube.com/vi/jixDbttGpBg/maxresdefault.jpg)](https://www.youtube.com/watch?v=jixDbttGpBg)
 
 The next step is now to 3d print the rest and test it.
 
