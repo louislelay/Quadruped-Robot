@@ -3,7 +3,21 @@
 This is the README file for my project of a Quadruped Robot.
 
 It is still a work in progress and it contain 2 main aspects, one is the 3d model which I've began to 3d print. The rest is file for simulation on GAZEBO. The 3d model is made using Solidworks.
- 
+
+This is the 3d model of the leg, following the 3d printed version :
+
+![3d Model of the leg](https://github.com/louislelay/Quadruped-Robot/blob/main/Images/leg3d.png)
+
+![3d Printed Version](https://github.com/louislelay/Quadruped-Robot/blob/main/Images/leg.jpg)
+
+From this, I've find the kinematics and I've tested them, I'm now able to control them and know exactly where will be the end of the leg.
+
+<iframe width="914" height="514" src="https://www.youtube.com/embed/jixDbttGpBg" title="v1 quadruped robot leg test" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+The next step is now to 3d print the rest and test it.
+
+![3d Model of the Quadruped Robot](https://github.com/louislelay/Quadruped-Robot/blob/main/Images/quad.png)
+
 I've began by creating a ".xacro" file in order to simplify the creation of a ".urdf" file. The goal was to simulate a simple verson of the robot on GAZEBO. In order to see easily how I was going, I used this website : https://mymodelrobot.appspot.com/
  
 It makes it easier to see what I'm doing as I advance. This is what I ended up with :
