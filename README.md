@@ -1,7 +1,8 @@
 # Quadruped-Robot
 
 This is the README file for my project of a Quadruped Robot.
- 
+
+It is still a work in progress and it contain 2 main aspects, one is the 3d model which I've began to 3d print. The rest is file for simulation on GAZEBO. The 3d model is made using Solidworks.
  
 I've began by creating a ".xacro" file in order to simplify the creation of a ".urdf" file. The goal was to simulate a simple verson of the robot on GAZEBO. In order to see easily how I was going, I used this website : https://mymodelrobot.appspot.com/
  
