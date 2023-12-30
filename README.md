@@ -14,6 +14,8 @@ From this, I've find the kinematics and I've tested them, I'm now able to contro
 
 https://www.youtube.com/watch?v=jixDbttGpBg&ab_channel=LouisLeLay
 
+[![Video](https://img.youtube.com/vi/jXnoFqcAkQA/maxresdefault.jpg)](https://www.youtube.com/watch?v=jixDbttGpBg&ab_channel=LouisLeLay)
+
 The next step is now to 3d print the rest and test it.
 
 ![3d Model of the Quadruped Robot](https://github.com/louislelay/Quadruped-Robot/blob/main/Images/quad.png)
