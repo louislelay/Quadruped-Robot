@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<robot name="quadruped" xmlns:xacro="http://ros.org/wiki/xacro">
+	
+	<xacro:arg name="is_fixed" default="false"/>
+	
+	<xacro:include filename="materials.xacro"/>
+	<xacro:include filename="inertias.xacro"/>
+
+	<xacro:property name="joint_limit_low" value="-1.57"/>
+	<xacro:property name="joint_limit_up" value="1.57"/>
+
+
+	<!-- Macros for Links and Joints -->
+	<xacro:macro name="create_link" params="name base_size x y z material:=grey">
+		<link name="${name}">
+			<xacro:box_inertial_with_origin x="${x}" y="${y}" z="${z}" mass="1">
+				<origin xyz="0 0 0"/>
+			</xacro:box_inertial_with_origin>
+			<visual>
+				<origin xyz="${x} ${y} ${z}"/>
+				<geometry>
+					<box size="${base_size}"/>
+				</geometry>
+				<material name="${material}"/>
+			</visual>
+			<collision>
+				<origin xyz="${x} ${y} ${z}"/>
+				<geometry>
+					<box size="${base_size}"/>
+				</geometry>
+			</collision>
+		</link>
+	</xacro:macro>
+
+	<xacro:macro name="create_joint" params="name parent child x y z">
+		<joint name="${name}" type="revolute">
+			<parent link="${parent}"/>
+			<child link="${child}"/>
+			<origin xyz="${x} ${y} ${z}"/>
+			<axis xyz="0 -1 0"/>
+			<limit lower="${joint_limit_low}" upper="${joint_limit_up}" effort="100" velocity="10"/>
+			<dynamics damping="1" friction="0.01"/>
+		</joint>
+	</xacro:macro>
+
+	<!-- Links -->
+	<xacro:create_link name="base" base_size="0.5 0.25 0.1" x="0" y="0" z="0"/>
+	
+	<xacro:if value="$(arg is_fixed)">
+		<link name="world"/>
+		<joint name="fixed" type="fixed">
+			<parent link="world"/>
+			<child link="base"/>
+		</joint>
+	</xacro:if>
+		
+		
+	<xacro:create_link name="up_leg_fl" base_size="0.05 0.05 0.2" x="0" y="0.15" z="-0.05"/>
+	<xacro:create_link name="up_leg_fr" base_size="0.05 0.05 0.2" x="0" y="-0.15" z="-0.05"/>
+	<xacro:create_link name="up_leg_bl" base_size="0.05 0.05 0.2" x="0" y="0.15" z="-0.05"/>
+	<xacro:create_link name="up_leg_br" base_size="0.05 0.05 0.2" x="0" y="-0.15" z="-0.05"/>
+	<xacro:create_link name="bottom_leg_fl" base_size="0.05 0.05 0.2" x="0" y="0" z="-0.1"/>
+	<xacro:create_link name="bottom_leg_fr" base_size="0.05 0.05 0.2" x="0" y="0" z="-0.1"/>
+	<xacro:create_link name="bottom_leg_bl" base_size="0.05 0.05 0.2" x="0" y="0" z="-0.1"/>
+	<xacro:create_link name="bottom_leg_br" base_size="0.05 0.05 0.2" x="0" y="0" z="-0.1"/>
+
+	<!-- Joints -->
+	<xacro:create_joint name="up_fl" parent="base" child="up_leg_fl" x="0.2" y="0" z="0"/>
+	<xacro:create_joint name="up_fr" parent="base" child="up_leg_fr" x="0.2" y="0" z="0"/>
+	<xacro:create_joint name="up_bl" parent="base" child="up_leg_bl" x="-0.2" y="0" z="0"/>
+	<xacro:create_joint name="up_br" parent="base" child="up_leg_br" x="-0.2" y="0" z="0"/>
+	<xacro:create_joint name="bottom_fl" parent="up_leg_fl" child="bottom_leg_fl" x="0" y="0.15" z="-0.15"/>
+	<xacro:create_joint name="bottom_fr" parent="up_leg_fr" child="bottom_leg_fr" x="0" y="-0.15" z="-0.15"/>
+	<xacro:create_joint name="bottom_bl" parent="up_leg_bl" child="bottom_leg_bl" x="0" y="0.15" z="-0.15"/>
+	<xacro:create_joint name="bottom_br" parent="up_leg_br" child="bottom_leg_br" x="0" y="-0.15" z="-0.15"/>
+</robot>
+

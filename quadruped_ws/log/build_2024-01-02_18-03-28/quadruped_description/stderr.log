@@ -1,0 +1,10 @@
+[91mNo such file or directory: materials.xacro [Errno 2] No such file or directory: 'materials.xacro'[0m
+when processing file: quadruped.xacro
+[91mNo such file or directory: materials.xacro [Errno 2] No such file or directory: 'materials.xacro'[0m
+when processing file: quadruped.xacro
+gmake[2]: *** [CMakeFiles/quadruped_description_fixed_urdf.dir/build.make:75: /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description/urdf/quadruped_fixed.urdf] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:198: CMakeFiles/quadruped_description_fixed_urdf.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/quadruped_description_urdf.dir/build.make:75: /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description/urdf/quadruped.urdf] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:146: CMakeFiles/quadruped_description_urdf.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
