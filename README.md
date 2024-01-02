@@ -75,4 +75,6 @@ then each time you modify the package :
 ```bash
 colcon build
 source install/local_setup.bash
+ros2 launch quadruped_description quadruped_simulation.launch.py verbose:=true
+
 ```
