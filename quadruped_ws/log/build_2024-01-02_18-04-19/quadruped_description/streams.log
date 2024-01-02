@@ -1,0 +1,15 @@
+[0.144s] Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description': CMAKE_PREFIX_PATH=/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description -- -j4 -l4
+[0.234s] [ 16%] [34m[1mGenerating quadruped_description robot fixed in world URDF[0m
+[0.235s] [ 33%] [34m[1mGenerating quadruped_description robot URDF[0m
+[0.474s] [ 33%] Built target quadruped_description_fixed_urdf
+[0.481s] [ 33%] Built target quadruped_description_urdf
+[0.496s] [ 50%] [34m[1mGenerating quadruped_description robot SDF[0m
+[0.496s] [ 66%] [34m[1mGenerating quadruped_description fixed robot SDF[0m
+[0.498s] /bin/sh: 1: cannot create simulation/models/quadruped/quadruped.sdf: Directory nonexistent
+[0.498s] gmake[2]: *** [CMakeFiles/quadruped_description_generated.dir/build.make:74: /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description/simulation/models/quadruped/quadruped.sdf] Error 2
+[0.499s] gmake[2]: *** Waiting for unfinished jobs....
+[0.499s] /bin/sh: 1: cannot create simulation/models/quadruped_fixed/quadruped_fixed.sdf: Directory nonexistent
+[0.500s] gmake[2]: *** [CMakeFiles/quadruped_description_generated.dir/build.make:78: /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description/simulation/models/quadruped_fixed/quadruped_fixed.sdf] Error 2
+[0.500s] gmake[1]: *** [CMakeFiles/Makefile2:381: CMakeFiles/quadruped_description_generated.dir/all] Error 2
+[0.500s] gmake: *** [Makefile:146: all] Error 2
+[0.510s] Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description -- -j4 -l4

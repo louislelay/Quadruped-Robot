@@ -1,0 +1,39 @@
+[0.145s] Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description': CMAKE_PREFIX_PATH=/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description -- -j4 -l4
+[0.232s] [ 16%] Built target quadruped_description_fixed_urdf
+[0.235s] [ 33%] Built target quadruped_description_urdf
+[0.253s] [ 50%] [34m[1mGenerating quadruped_description robot SDF[0m
+[0.254s] [ 66%] [34m[1mGenerating quadruped_description fixed robot SDF[0m
+[1.742s] [100%] Built target quadruped_description_generated
+[1.757s] Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description -- -j4 -l4
+[1.907s] Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description': CMAKE_PREFIX_PATH=/opt/ros/iron /home/louis/.local/bin/cmake --install /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description
+[1.956s] -- Install configuration: ""
+[1.956s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/urdf
+[1.957s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/urdf/inertias.xacro
+[1.957s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/urdf/quadruped_fixed.urdf
+[1.957s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/urdf/materials.xacro
+[1.957s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/urdf/quadruped.xacro
+[1.958s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/urdf/gazebo.xacro
+[1.958s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/urdf/quadruped.urdf
+[1.958s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/simulation
+[1.958s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/simulation/models
+[1.958s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/simulation/models/quadruped
+[1.959s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/simulation/models/quadruped/quadruped.sdf
+[1.959s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/simulation/models/quadruped_fixed
+[1.959s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/simulation/models/quadruped_fixed/quadruped_fixed.sdf
+[1.959s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/simulation/worlds
+[1.959s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/ament_index/resource_index/package_run_dependencies/quadruped_description
+[1.966s] -- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/ament_index/resource_index/parent_prefix_path/quadruped_description
+[1.966s] -- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/environment/ament_prefix_path.sh
+[1.966s] -- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/environment/ament_prefix_path.dsv
+[1.966s] -- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/environment/path.sh
+[1.967s] -- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/environment/path.dsv
+[1.967s] -- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/local_setup.bash
+[1.967s] -- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/local_setup.sh
+[1.967s] -- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/local_setup.zsh
+[1.967s] -- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/local_setup.dsv
+[1.968s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/package.dsv
+[1.968s] -- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/ament_index/resource_index/packages/quadruped_description
+[1.968s] -- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/cmake/quadruped_descriptionConfig.cmake
+[1.968s] -- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/cmake/quadruped_descriptionConfig-version.cmake
+[1.968s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/package.xml
+[1.976s] Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /home/louis/.local/bin/cmake --install /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description

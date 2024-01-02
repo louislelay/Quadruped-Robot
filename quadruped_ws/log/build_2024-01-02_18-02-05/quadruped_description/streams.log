@@ -1,0 +1,5 @@
+[0.140s] Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description': CMAKE_PREFIX_PATH=/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description -- -j4 -l4
+[0.207s] [0mCMake Error: The source directory "/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description" does not exist.
+[0.207s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.208s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.218s] Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description -- -j4 -l4

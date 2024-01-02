@@ -1,0 +1,25 @@
+[0.144s] Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description': CMAKE_PREFIX_PATH=/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description -- -j4 -l4
+[0.222s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.447s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.602s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.609s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.610s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.611s] -- Added test 'lint_cmake' to check CMake code style
+[0.612s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.615s] -- Added test 'xmllint' to check XML markup files
+[0.617s] -- Configuring done (0.4s)
+[0.638s] -- Generating done (0.0s)
+[0.642s] -- Build files have been written to: /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description
+[0.666s] [ 16%] [34m[1mGenerating quadruped_description robot fixed in world URDF[0m
+[0.667s] [ 33%] [34m[1mGenerating quadruped_description robot URDF[0m
+[0.812s] [91mNo such file or directory: materials.xacro [Errno 2] No such file or directory: 'materials.xacro'[0m
+[0.812s] when processing file: quadruped.xacro
+[0.839s] [91mNo such file or directory: materials.xacro [Errno 2] No such file or directory: 'materials.xacro'[0m
+[0.839s] when processing file: quadruped.xacro
+[0.840s] gmake[2]: *** [CMakeFiles/quadruped_description_fixed_urdf.dir/build.make:75: /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description/urdf/quadruped_fixed.urdf] Error 2
+[0.840s] gmake[1]: *** [CMakeFiles/Makefile2:198: CMakeFiles/quadruped_description_fixed_urdf.dir/all] Error 2
+[0.841s] gmake[1]: *** Waiting for unfinished jobs....
+[0.859s] gmake[2]: *** [CMakeFiles/quadruped_description_urdf.dir/build.make:75: /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description/urdf/quadruped.urdf] Error 2
+[0.859s] gmake[1]: *** [CMakeFiles/Makefile2:146: CMakeFiles/quadruped_description_urdf.dir/all] Error 2
+[0.859s] gmake: *** [Makefile:146: all] Error 2
+[0.869s] Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description -- -j4 -l4
