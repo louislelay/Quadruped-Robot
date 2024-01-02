@@ -2,6 +2,10 @@
 
 This is the README file for my project of a Quadruped Robot.
 
+-----------------
+IRL (CAD folder)
+-----------------
+
 It is still a work in progress and it contain 2 main aspects, one is the 3d model which I've began to 3d print. The rest is file for simulation on GAZEBO. The 3d model is made using Solidworks.
 
 This is the 3d model of the leg, following the 3d printed version :
@@ -17,6 +21,13 @@ From this, I've find the kinematics and I've tested them, I'm now able to contro
 The next step is now to 3d print the rest and test it.
 
 ![3d Model of the Quadruped Robot](https://github.com/louislelay/Quadruped-Robot/blob/main/Images/quad.png)
+
+
+
+
+-----------------
+Creation of URDF (Quadruped_Robot_Sim folder)
+-----------------
 
 I've began by creating a ".xacro" file in order to simplify the creation of a ".urdf" file. The goal was to simulate a simple verson of the robot on GAZEBO. In order to see easily how I was going, I used this website : https://mymodelrobot.appspot.com/
  
@@ -44,4 +55,24 @@ And to run the model, in the same terminal do (don't forget to adapt to your pat
 ```bash
 export GAZEBO_MODEL_PATH=/home/louis/Quadruped-Robot/Quadruped_Robot_Sim/simulation/models
 gazebo simulation/worlds/quadruped_robot_fixed.world
+```
+
+
+-----------------
+Simulation (quadruped_ws folder)
+-----------------
+
+first run :
+
+```bash
+cd ~/PATH/TO/THE/WS/quadruped_ws
+source /usr/share/gazebo-11/setup.bash
+source /opt/ros/foxy/setup.bash
+```
+
+then each time you modify the package :
+
+```bash
+colcon build
+source install/local_setup.bash
 ```
