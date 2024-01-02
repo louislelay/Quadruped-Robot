@@ -1,1 +1,0 @@
-/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description/launch/quadruped_simulation.launch.py
