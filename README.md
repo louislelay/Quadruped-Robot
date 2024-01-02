@@ -67,7 +67,7 @@ first run :
 ```bash
 cd ~/PATH/TO/THE/WS/quadruped_ws
 source /usr/share/gazebo-11/setup.bash
-source /opt/ros/foxy/setup.bash
+source /opt/ros/YOUR-DISTRO/setup.bash
 ```
 
 then each time you modify the package :
