@@ -316,9 +316,6 @@ ament_cmake_symlink_install_directory("/home/louis/Documents/Quadruped-Robot/qua
 # install(DIRECTORY "simulation" "DESTINATION" "share/quadruped_description")
 ament_cmake_symlink_install_directory("/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description" DIRECTORY "simulation" "DESTINATION" "share/quadruped_description")
 
-# install(DIRECTORY "launch/" "DESTINATION" "share/quadruped_description/launch")
-ament_cmake_symlink_install_directory("/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description" DIRECTORY "launch/" "DESTINATION" "share/quadruped_description/launch")
-
 # install(FILES "/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/quadruped_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description" FILES "/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/quadruped_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

@@ -72,43 +72,6 @@ add_custom_target(
   DEPENDS ${PROJECT_NAME}_fixed_urdf
 )
 
-# Requires that python package "onshape-to-robot" has been installed
-# These are manual commands, they only need to be launched
-# when the cad has changed. The generated files are versionned in git.
-add_custom_target(actuator_urdf
-  COMMAND onshape-to-robot actuator
-  WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/urdf
-  COMMENT "Generating ${PROJECT_NAME} actuator URDF files"
-  VERBATIM
-)
-
-add_custom_target(actuator_sdf
-  COMMAND onshape-to-robot actuator
-  WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/simulation/models
-  COMMENT "Generating ${PROJECT_NAME} actuator SDF files"
-  VERBATIM
-)
-
-add_custom_target(quadruped_urdf
-  COMMAND onshape-to-robot quadruped
-  WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/urdf
-  COMMENT "Generating ${PROJECT_NAME} quadruped URDF files"
-  VERBATIM
-)
-
-add_custom_target(quadruped_sdf
-  COMMAND onshape-to-robot quadruped
-  WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/simulation/models
-  COMMENT "Generating ${PROJECT_NAME} quadruped SDF files"
-  VERBATIM
-)
-
-add_custom_target(left_leg_urdf
-  COMMAND onshape-to-robot left_leg
-  WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/urdf
-  COMMENT "Generating ${PROJECT_NAME} quadruped URDF files"
-  VERBATIM
-)
 
 # See https://samthursfield.wordpress.com/2015/11/21/cmake-dependencies-between-targets-and-files-and-custom-commands/
 # for explanation on dependency management and custom_commands.
@@ -125,9 +88,7 @@ install(DIRECTORY urdf
 install(DIRECTORY simulation
   DESTINATION share/${PROJECT_NAME})
 
-# Install launch files
-install(DIRECTORY launch/
-        DESTINATION share/${PROJECT_NAME}/launch)
+
 
 
 if(BUILD_TESTING)

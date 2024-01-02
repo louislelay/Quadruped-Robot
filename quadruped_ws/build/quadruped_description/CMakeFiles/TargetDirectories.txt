@@ -4,11 +4,6 @@
 /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/CMakeFiles/quadruped_description_sdf.dir
 /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/CMakeFiles/quadruped_description_fixed_urdf.dir
 /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/CMakeFiles/quadruped_description_fixed_sdf.dir
-/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/CMakeFiles/actuator_urdf.dir
-/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/CMakeFiles/actuator_sdf.dir
-/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/CMakeFiles/quadruped_urdf.dir
-/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/CMakeFiles/quadruped_sdf.dir
-/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/CMakeFiles/left_leg_urdf.dir
 /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/CMakeFiles/quadruped_description_generated.dir
 /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/CMakeFiles/test.dir
 /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/CMakeFiles/edit_cache.dir

@@ -250,71 +250,6 @@ quadruped_description_fixed_sdf/fast:
 .PHONY : quadruped_description_fixed_sdf/fast
 
 #=============================================================================
-# Target rules for targets named actuator_urdf
-
-# Build rule for target.
-actuator_urdf: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 actuator_urdf
-.PHONY : actuator_urdf
-
-# fast build rule for target.
-actuator_urdf/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/actuator_urdf.dir/build.make CMakeFiles/actuator_urdf.dir/build
-.PHONY : actuator_urdf/fast
-
-#=============================================================================
-# Target rules for targets named actuator_sdf
-
-# Build rule for target.
-actuator_sdf: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 actuator_sdf
-.PHONY : actuator_sdf
-
-# fast build rule for target.
-actuator_sdf/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/actuator_sdf.dir/build.make CMakeFiles/actuator_sdf.dir/build
-.PHONY : actuator_sdf/fast
-
-#=============================================================================
-# Target rules for targets named quadruped_urdf
-
-# Build rule for target.
-quadruped_urdf: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 quadruped_urdf
-.PHONY : quadruped_urdf
-
-# fast build rule for target.
-quadruped_urdf/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quadruped_urdf.dir/build.make CMakeFiles/quadruped_urdf.dir/build
-.PHONY : quadruped_urdf/fast
-
-#=============================================================================
-# Target rules for targets named quadruped_sdf
-
-# Build rule for target.
-quadruped_sdf: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 quadruped_sdf
-.PHONY : quadruped_sdf
-
-# fast build rule for target.
-quadruped_sdf/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quadruped_sdf.dir/build.make CMakeFiles/quadruped_sdf.dir/build
-.PHONY : quadruped_sdf/fast
-
-#=============================================================================
-# Target rules for targets named left_leg_urdf
-
-# Build rule for target.
-left_leg_urdf: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 left_leg_urdf
-.PHONY : left_leg_urdf
-
-# fast build rule for target.
-left_leg_urdf/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/left_leg_urdf.dir/build.make CMakeFiles/left_leg_urdf.dir/build
-.PHONY : left_leg_urdf/fast
-
-#=============================================================================
 # Target rules for targets named quadruped_description_generated
 
 # Build rule for target.
@@ -340,17 +275,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... actuator_sdf"
-	@echo "... actuator_urdf"
-	@echo "... left_leg_urdf"
 	@echo "... quadruped_description_fixed_sdf"
 	@echo "... quadruped_description_fixed_urdf"
 	@echo "... quadruped_description_generated"
 	@echo "... quadruped_description_sdf"
 	@echo "... quadruped_description_uninstall"
 	@echo "... quadruped_description_urdf"
-	@echo "... quadruped_sdf"
-	@echo "... quadruped_urdf"
 	@echo "... uninstall"
 .PHONY : help
 

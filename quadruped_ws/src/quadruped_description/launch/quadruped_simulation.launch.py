@@ -15,6 +15,8 @@ def generate_launch_description():
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
     pkg_quadruped = get_package_share_directory('quadruped_description')
     urdf_file = Path(pkg_quadruped) / 'urdf/quadruped.urdf'
+    
+    sim = LaunchConfiguration('sim', default='false')
 
     # Gazebo launch
     gazebo = IncludeLaunchDescription(
@@ -42,10 +44,9 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument(
         	'world',
-        	default_value=[os.path.join(pkg_quadruped,'simulation/worlds/quadruped_fixed.world')], 
+       		default_value=[os.path.join(pkg_quadruped, 'simulation/worlds/quadruped_fixed.world')], 
         	description='SDF world file'),
         #DeclareLaunchArgument('rviz', default_value='false', description='Open RViz.'),
         gazebo,
         robot_state_publisher,
     ])
-
