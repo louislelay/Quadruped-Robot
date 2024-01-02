@@ -1,0 +1,39 @@
+[0.302s] Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros -DCMAKE_INSTALL_PREFIX=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros
+[0.501s] -- The C compiler identification is GNU 11.4.0
+[0.651s] -- The CXX compiler identification is GNU 11.4.0
+[0.671s] -- Detecting C compiler ABI info
+[0.803s] -- Detecting C compiler ABI info - done
+[0.846s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.847s] -- Detecting C compile features
+[0.848s] -- Detecting C compile features - done
+[0.859s] -- Detecting CXX compiler ABI info
+[1.055s] -- Detecting CXX compiler ABI info - done
+[1.097s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.097s] -- Detecting CXX compile features
+[1.099s] -- Detecting CXX compile features - done
+[1.112s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.233s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.412s] -- Found builtin_interfaces: 1.6.0 (/opt/ros/iron/share/builtin_interfaces/cmake)
+[2.508s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.575s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.677s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.744s] [31mCMake Error at CMakeLists.txt:26 (find_package):
+[2.745s]   By not providing "Findgazebo_dev.cmake" in CMAKE_MODULE_PATH this project
+[2.745s]   has asked CMake to find a package configuration file provided by
+[2.745s]   "gazebo_dev", but CMake did not find one.
+[2.745s] 
+[2.745s]   Could not find a package configuration file provided by "gazebo_dev" with
+[2.746s]   any of the following names:
+[2.746s] 
+[2.746s]     gazebo_devConfig.cmake
+[2.746s]     gazebo_dev-config.cmake
+[2.747s] 
+[2.747s]   Add the installation prefix of "gazebo_dev" to CMAKE_PREFIX_PATH or set
+[2.747s]   "gazebo_dev_DIR" to a directory containing one of the above files.  If
+[2.747s]   "gazebo_dev" provides a separate development package or SDK, be sure it has
+[2.747s]   been installed.
+[2.748s] 
+[2.748s] [0m
+[2.748s] -- Configuring incomplete, errors occurred!
+[2.762s] Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros -DCMAKE_INSTALL_PREFIX=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros

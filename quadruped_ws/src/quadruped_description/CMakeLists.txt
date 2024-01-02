@@ -125,9 +125,7 @@ install(DIRECTORY urdf
 install(DIRECTORY simulation
   DESTINATION share/${PROJECT_NAME})
 
-# Install launch files
-install(DIRECTORY launch/
-        DESTINATION share/${PROJECT_NAME}/launch)
+
 
 
 if(BUILD_TESTING)

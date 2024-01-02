@@ -1,0 +1,40 @@
+[0.463s] Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_dev -DCMAKE_INSTALL_PREFIX=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev
+[0.690s] -- The C compiler identification is GNU 11.4.0
+[0.874s] -- The CXX compiler identification is GNU 11.4.0
+[0.902s] -- Detecting C compiler ABI info
+[1.089s] -- Detecting C compiler ABI info - done
+[1.124s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.125s] -- Detecting C compile features
+[1.125s] -- Detecting C compile features - done
+[1.136s] -- Detecting CXX compiler ABI info
+[1.337s] -- Detecting CXX compiler ABI info - done
+[1.378s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.379s] -- Detecting CXX compile features
+[1.381s] -- Detecting CXX compile features - done
+[1.388s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.731s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.059s] -- Configuring done (2.5s)
+[3.065s] -- Generating done (0.0s)
+[3.067s] -- Build files have been written to: /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev
+[3.081s] Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_dev -DCMAKE_INSTALL_PREFIX=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev
+[3.084s] Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev -- -j4 -l4
+[3.178s] Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev -- -j4 -l4
+[3.297s] Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake --install /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev
+[3.350s] -- Install configuration: ""
+[3.351s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/ament_index/resource_index/package_run_dependencies/gazebo_dev
+[3.351s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/ament_index/resource_index/parent_prefix_path/gazebo_dev
+[3.352s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.sh
+[3.352s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.dsv
+[3.352s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/environment/path.sh
+[3.353s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/environment/path.dsv
+[3.353s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/local_setup.bash
+[3.353s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/local_setup.sh
+[3.354s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/local_setup.zsh
+[3.354s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/local_setup.dsv
+[3.354s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/package.dsv
+[3.355s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/ament_index/resource_index/packages/gazebo_dev
+[3.355s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_dev-extras.cmake
+[3.355s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig.cmake
+[3.356s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig-version.cmake
+[3.356s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/package.xml
+[3.365s] Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake --install /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev

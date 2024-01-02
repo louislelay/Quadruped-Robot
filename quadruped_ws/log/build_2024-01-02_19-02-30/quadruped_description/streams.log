@@ -1,0 +1,8 @@
+[0.178s] Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description -- -j4 -l4
+[0.247s] [31mCMake Error at CMakeLists.txt:1:
+[0.247s]   Parse error.  Expected "(", got identifier with text "os".
+[0.248s] 
+[0.248s] [0m
+[0.248s] -- Configuring incomplete, errors occurred!
+[0.250s] gmake: *** [Makefile:366: cmake_check_build_system] Error 1
+[0.264s] Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description -- -j4 -l4

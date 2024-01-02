@@ -1,0 +1,395 @@
+[2.186s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.186s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb2593b3040>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb2593b2aa0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb2593b2aa0>>)
+[2.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.320s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/louis/Documents/Quadruped-Robot/quadruped_ws'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.356s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.356s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.356s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.356s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.356s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.357s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.357s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.357s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2) by extension 'ignore'
+[2.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2) by extension 'ignore_ament_install'
+[2.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2) by extensions ['colcon_pkg']
+[2.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2) by extension 'colcon_pkg'
+[2.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2) by extensions ['colcon_meta']
+[2.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2) by extension 'colcon_meta'
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2) by extensions ['ros']
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2) by extension 'ros'
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2) by extensions ['cmake', 'python']
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2) by extension 'cmake'
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2) by extension 'python'
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2) by extensions ['python_setup_py']
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2) by extension 'python_setup_py'
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_dev) by extensions ['ignore', 'ignore_ament_install']
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_dev) by extension 'ignore'
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_dev) by extension 'ignore_ament_install'
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_dev) by extensions ['colcon_pkg']
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_dev) by extension 'colcon_pkg'
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_dev) by extensions ['colcon_meta']
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_dev) by extension 'colcon_meta'
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_dev) by extensions ['ros']
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_dev) by extension 'ros'
+[2.368s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs-ros2/gazebo_dev' with type 'ros.ament_cmake' and name 'gazebo_dev'
+[2.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_msgs) by extension 'ignore'
+[2.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_msgs) by extension 'ignore_ament_install'
+[2.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_msgs) by extensions ['colcon_pkg']
+[2.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_msgs) by extension 'colcon_pkg'
+[2.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_msgs) by extensions ['colcon_meta']
+[2.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_msgs) by extension 'colcon_meta'
+[2.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_msgs) by extensions ['ros']
+[2.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_msgs) by extension 'ros'
+[2.370s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs-ros2/gazebo_msgs' with type 'ros.ament_cmake' and name 'gazebo_msgs'
+[2.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[2.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_plugins) by extension 'ignore'
+[2.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_plugins) by extension 'ignore_ament_install'
+[2.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_plugins) by extensions ['colcon_pkg']
+[2.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_plugins) by extension 'colcon_pkg'
+[2.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_plugins) by extensions ['colcon_meta']
+[2.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_plugins) by extension 'colcon_meta'
+[2.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_plugins) by extensions ['ros']
+[2.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_plugins) by extension 'ros'
+[2.375s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs-ros2/gazebo_plugins' with type 'ros.ament_cmake' and name 'gazebo_plugins'
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros) by extensions ['ignore', 'ignore_ament_install']
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros) by extension 'ignore'
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros) by extension 'ignore_ament_install'
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros) by extensions ['colcon_pkg']
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros) by extension 'colcon_pkg'
+[2.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros) by extensions ['colcon_meta']
+[2.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros) by extension 'colcon_meta'
+[2.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros) by extensions ['ros']
+[2.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros) by extension 'ros'
+[2.380s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs-ros2/gazebo_ros' with type 'ros.ament_cmake' and name 'gazebo_ros'
+[2.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_control) by extensions ['ignore', 'ignore_ament_install']
+[2.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_control) by extension 'ignore'
+[2.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_control) by extension 'ignore_ament_install'
+[2.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_control) by extensions ['colcon_pkg']
+[2.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_control) by extension 'colcon_pkg'
+[2.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_control) by extensions ['colcon_meta']
+[2.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_control) by extension 'colcon_meta'
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_control) by extensions ['ros']
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_control) by extension 'ros'
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_control) by extensions ['cmake', 'python']
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_control) by extension 'cmake'
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_control) by extension 'python'
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_control) by extensions ['python_setup_py']
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_control) by extension 'python_setup_py'
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_pkgs) by extension 'ignore'
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_pkgs) by extension 'ignore_ament_install'
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_pkgs) by extensions ['colcon_pkg']
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_pkgs) by extension 'colcon_pkg'
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_pkgs) by extensions ['colcon_meta']
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_pkgs) by extension 'colcon_meta'
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_pkgs) by extensions ['ros']
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs-ros2/gazebo_ros_pkgs) by extension 'ros'
+[2.384s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs-ros2/gazebo_ros_pkgs' with type 'ros.ament_cmake' and name 'gazebo_ros_pkgs'
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_description) by extensions ['ignore', 'ignore_ament_install']
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_description) by extension 'ignore'
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_description) by extension 'ignore_ament_install'
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_description) by extensions ['colcon_pkg']
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_description) by extension 'colcon_pkg'
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_description) by extensions ['colcon_meta']
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_description) by extension 'colcon_meta'
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_description) by extensions ['ros']
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadruped_description) by extension 'ros'
+[2.386s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quadruped_description' with type 'ros.ament_cmake' and name 'quadruped_description'
+[2.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.488s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs-ros2/gazebo_ros' from colcon.pkg: {'dependencies': ['Gazebo']}
+[2.489s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs-ros2/gazebo_dev' from colcon.pkg: {'dependencies': ['Gazebo']}
+[2.490s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs-ros2/gazebo_plugins' from colcon.pkg: {'dependencies': ['Gazebo']}
+[2.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.661s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/louis/Documents/Quadruped-Robot/quadruped_ws/install
+[2.695s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 296 installed packages in /opt/ros/iron
+[2.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.852s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_args' from command line to 'None'
+[2.852s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_target' from command line to 'None'
+[2.852s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.852s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_clean_cache' from command line to 'False'
+[2.852s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_clean_first' from command line to 'False'
+[2.852s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_force_configure' from command line to 'False'
+[2.852s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'ament_cmake_args' from command line to 'None'
+[2.852s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'catkin_cmake_args' from command line to 'None'
+[2.853s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.853s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_dev' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev', 'merge_install': False, 'path': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_dev', 'symlink_install': False, 'test_result_base': None}
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_args' from command line to 'None'
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_target' from command line to 'None'
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.893s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.893s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.893s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.893s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.893s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.893s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs', 'merge_install': False, 'path': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.944s] Level 5:colcon.colcon_core.verb:set package 'quadruped_description' build argument 'cmake_args' from command line to 'None'
+[2.944s] Level 5:colcon.colcon_core.verb:set package 'quadruped_description' build argument 'cmake_target' from command line to 'None'
+[2.944s] Level 5:colcon.colcon_core.verb:set package 'quadruped_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.944s] Level 5:colcon.colcon_core.verb:set package 'quadruped_description' build argument 'cmake_clean_cache' from command line to 'False'
+[2.944s] Level 5:colcon.colcon_core.verb:set package 'quadruped_description' build argument 'cmake_clean_first' from command line to 'False'
+[2.944s] Level 5:colcon.colcon_core.verb:set package 'quadruped_description' build argument 'cmake_force_configure' from command line to 'False'
+[2.944s] Level 5:colcon.colcon_core.verb:set package 'quadruped_description' build argument 'ament_cmake_args' from command line to 'None'
+[2.944s] Level 5:colcon.colcon_core.verb:set package 'quadruped_description' build argument 'catkin_cmake_args' from command line to 'None'
+[2.944s] Level 5:colcon.colcon_core.verb:set package 'quadruped_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.944s] DEBUG:colcon.colcon_core.verb:Building package 'quadruped_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description', 'merge_install': False, 'path': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description', 'symlink_install': False, 'test_result_base': None}
+[2.978s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_args' from command line to 'None'
+[2.978s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_target' from command line to 'None'
+[2.978s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.978s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[2.978s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_clean_first' from command line to 'False'
+[2.978s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_force_configure' from command line to 'False'
+[2.978s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'ament_cmake_args' from command line to 'None'
+[2.978s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[2.978s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.978s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros', 'merge_install': False, 'path': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_ros', 'symlink_install': False, 'test_result_base': None}
+[3.012s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[3.012s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[3.012s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.012s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[3.012s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[3.012s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[3.012s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[3.012s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[3.012s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.012s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_plugins', 'merge_install': False, 'path': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_plugins', 'symlink_install': False, 'test_result_base': None}
+[3.046s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_args' from command line to 'None'
+[3.046s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_target' from command line to 'None'
+[3.046s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.046s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.046s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.046s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.046s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.046s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.046s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.046s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros_pkgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros_pkgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros_pkgs', 'merge_install': False, 'path': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_ros_pkgs', 'symlink_install': False, 'test_result_base': None}
+[3.079s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.113s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.114s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_dev' with build type 'ament_cmake'
+[3.114s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_dev'
+[3.154s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.154s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.265s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_msgs' with build type 'ament_cmake'
+[3.265s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_msgs'
+[3.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.417s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description' with build type 'ament_cmake'
+[3.418s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description'
+[3.454s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.454s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_dev -DCMAKE_INSTALL_PREFIX=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev
+[3.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_msgs -DCMAKE_INSTALL_PREFIX=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs
+[3.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description -- -j4 -l4
+[3.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description -- -j4 -l4
+[4.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake --install /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description
+[4.208s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_description)
+[4.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake --install /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description
+[4.285s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description' for CMake module files
+[4.286s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description' for CMake config files
+[4.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_description', 'cmake_prefix_path')
+[4.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/hook/cmake_prefix_path.ps1'
+[4.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/hook/cmake_prefix_path.dsv'
+[4.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/hook/cmake_prefix_path.sh'
+[4.365s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/bin'
+[4.365s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/lib/pkgconfig/quadruped_description.pc'
+[4.366s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/lib/python3.10/site-packages'
+[4.367s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/bin'
+[4.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/package.ps1'
+[4.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/package.dsv'
+[4.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/package.sh'
+[4.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/package.bash'
+[4.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/package.zsh'
+[4.444s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/colcon-core/packages/quadruped_description)
+[4.677s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_description)
+[4.741s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description' for CMake module files
+[4.742s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description' for CMake config files
+[4.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_description', 'cmake_prefix_path')
+[4.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/hook/cmake_prefix_path.ps1'
+[4.809s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/hook/cmake_prefix_path.dsv'
+[4.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/hook/cmake_prefix_path.sh'
+[4.812s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/bin'
+[4.812s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/lib/pkgconfig/quadruped_description.pc'
+[4.813s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/lib/python3.10/site-packages'
+[4.814s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/bin'
+[4.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/package.ps1'
+[4.881s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/package.dsv'
+[4.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/package.sh'
+[4.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/package.bash'
+[4.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/package.zsh'
+[4.887s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/colcon-core/packages/quadruped_description)
+[6.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_dev -DCMAKE_INSTALL_PREFIX=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev
+[6.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev -- -j4 -l4
+[6.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev -- -j4 -l4
+[6.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake --install /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev
+[6.479s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_dev)
+[6.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake --install /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_dev
+[6.542s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev' for CMake module files
+[6.544s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev' for CMake config files
+[6.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_dev', 'cmake_prefix_path')
+[6.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.ps1'
+[6.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.dsv'
+[6.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.sh'
+[6.610s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/bin'
+[6.610s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/lib/pkgconfig/gazebo_dev.pc'
+[6.611s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/lib/python3.10/site-packages'
+[6.611s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/bin'
+[6.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/package.ps1'
+[6.667s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/package.dsv'
+[6.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/package.sh'
+[6.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/package.bash'
+[6.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/package.zsh'
+[6.672s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/colcon-core/packages/gazebo_dev)
+[6.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_dev)
+[6.844s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev' for CMake module files
+[6.845s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev' for CMake config files
+[6.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_dev', 'cmake_prefix_path')
+[6.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.ps1'
+[6.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.dsv'
+[6.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.sh'
+[6.884s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/bin'
+[6.884s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/lib/pkgconfig/gazebo_dev.pc'
+[6.884s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/lib/python3.10/site-packages'
+[6.885s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/bin'
+[6.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/package.ps1'
+[6.922s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/package.dsv'
+[6.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/package.sh'
+[6.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/package.bash'
+[6.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/gazebo_dev/package.zsh'
+[6.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev/share/colcon-core/packages/gazebo_dev)
+[10.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_msgs -DCMAKE_INSTALL_PREFIX=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs
+[10.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_msgs -- -j4 -l4
+[183.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_msgs -- -j4 -l4
+[185.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake --install /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_msgs
+[186.095s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_msgs)
+[186.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /home/louis/.local/bin/cmake --install /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_msgs
+[186.151s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs' for CMake module files
+[186.154s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs' for CMake config files
+[186.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'cmake_prefix_path')
+[186.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.ps1'
+[186.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.dsv'
+[186.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.sh'
+[186.199s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/lib'
+[186.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'ld_library_path_lib')
+[186.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.ps1'
+[186.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.dsv'
+[186.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.sh'
+[186.257s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/bin'
+[186.257s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/lib/pkgconfig/gazebo_msgs.pc'
+[186.258s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/lib/python3.10/site-packages'
+[186.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'pythonpath')
+[186.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/hook/pythonpath.ps1'
+[186.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/hook/pythonpath.dsv'
+[186.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/hook/pythonpath.sh'
+[186.313s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/bin'
+[186.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/package.ps1'
+[186.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/package.dsv'
+[186.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/package.sh'
+[186.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/package.bash'
+[186.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/package.zsh'
+[186.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/colcon-core/packages/gazebo_msgs)
+[188.286s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_msgs)
+[188.321s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs' for CMake module files
+[188.322s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs' for CMake config files
+[188.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'cmake_prefix_path')
+[188.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.ps1'
+[188.357s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.dsv'
+[188.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.sh'
+[188.358s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/lib'
+[188.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'ld_library_path_lib')
+[188.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.ps1'
+[188.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.dsv'
+[188.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.sh'
+[188.396s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/bin'
+[188.396s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/lib/pkgconfig/gazebo_msgs.pc'
+[188.396s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/lib/python3.10/site-packages'
+[188.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'pythonpath')
+[188.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/hook/pythonpath.ps1'
+[188.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/hook/pythonpath.dsv'
+[188.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/hook/pythonpath.sh'
+[188.432s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/bin'
+[188.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/package.ps1'
+[188.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/package.dsv'
+[188.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/package.sh'
+[188.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/package.bash'
+[188.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/gazebo_msgs/package.zsh'
+[188.486s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/share/colcon-core/packages/gazebo_msgs)
+[188.486s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_ros' with build type 'ament_cmake'
+[188.487s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_ros'
+[188.525s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[188.525s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[188.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros': AMENT_PREFIX_PATH=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs:/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs:/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev:/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description:/opt/ros/iron LD_LIBRARY_PATH=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/lib/python3.10/site-packages:${PYTHONPATH} /home/louis/.local/bin/cmake /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_ros -DCMAKE_INSTALL_PREFIX=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros
+[188.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros' returned '1': AMENT_PREFIX_PATH=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs:/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs:/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_dev:/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description:/opt/ros/iron LD_LIBRARY_PATH=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_msgs/lib/python3.10/site-packages:${PYTHONPATH} /home/louis/.local/bin/cmake /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros_pkgs-ros2/gazebo_ros -DCMAKE_INSTALL_PREFIX=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros
+[188.785s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros)
+[188.825s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros' for CMake module files
+[188.826s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros' for CMake config files
+[188.827s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros/bin'
+[188.827s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros/lib/pkgconfig/gazebo_ros.pc'
+[188.827s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros/lib/python3.10/site-packages'
+[188.828s] Level 1:colcon.colcon_core.environment:checking '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros/bin'
+[188.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros/share/gazebo_ros/package.ps1'
+[188.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros/share/gazebo_ros/package.dsv'
+[188.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros/share/gazebo_ros/package.sh'
+[188.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros/share/gazebo_ros/package.bash'
+[188.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros/share/gazebo_ros/package.zsh'
+[188.864s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros/share/colcon-core/packages/gazebo_ros)
+[188.875s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[188.876s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[188.876s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[188.876s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[188.927s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[188.928s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[188.928s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[188.957s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[188.999s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/local_setup.ps1'
+[189.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/_local_setup_util_ps1.py'
+[189.003s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/setup.ps1'
+[189.041s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/local_setup.sh'
+[189.042s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/_local_setup_util_sh.py'
+[189.043s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/setup.sh'
+[189.101s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/local_setup.bash'
+[189.102s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/setup.bash'
+[189.158s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/local_setup.zsh'
+[189.159s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/setup.zsh'
