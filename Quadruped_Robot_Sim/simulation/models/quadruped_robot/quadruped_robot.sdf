@@ -37,14 +37,14 @@
       <axis>
         <xyz>0 -1 0</xyz>
         <limit>
-          <lower>-3.14</lower>
-          <upper>3.14</upper>
+          <lower>-1.57</lower>
+          <upper>1.57</upper>
           <effort>100</effort>
-          <velocity>0.1</velocity>
+          <velocity>10</velocity>
         </limit>
         <dynamics>
-          <damping>0.1</damping>
-          <friction>0.1</friction>
+          <damping>1</damping>
+          <friction>0.01</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
         </dynamics>
@@ -88,14 +88,14 @@
       <axis>
         <xyz>0 -1 0</xyz>
         <limit>
-          <lower>-3.14</lower>
-          <upper>3.14</upper>
+          <lower>-1.57</lower>
+          <upper>1.57</upper>
           <effort>100</effort>
-          <velocity>0.1</velocity>
+          <velocity>10</velocity>
         </limit>
         <dynamics>
-          <damping>0.1</damping>
-          <friction>0.1</friction>
+          <damping>1</damping>
+          <friction>0.01</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
         </dynamics>
@@ -139,14 +139,14 @@
       <axis>
         <xyz>0 -1 0</xyz>
         <limit>
-          <lower>-3.14</lower>
-          <upper>3.14</upper>
+          <lower>-1.57</lower>
+          <upper>1.57</upper>
           <effort>100</effort>
-          <velocity>0.1</velocity>
+          <velocity>10</velocity>
         </limit>
         <dynamics>
-          <damping>0.1</damping>
-          <friction>0.1</friction>
+          <damping>1</damping>
+          <friction>0.01</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
         </dynamics>
@@ -190,14 +190,14 @@
       <axis>
         <xyz>0 -1 0</xyz>
         <limit>
-          <lower>-3.14</lower>
-          <upper>3.14</upper>
+          <lower>-1.57</lower>
+          <upper>1.57</upper>
           <effort>100</effort>
-          <velocity>0.1</velocity>
+          <velocity>10</velocity>
         </limit>
         <dynamics>
-          <damping>0.1</damping>
-          <friction>0.1</friction>
+          <damping>1</damping>
+          <friction>0.01</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
         </dynamics>
@@ -241,14 +241,14 @@
       <axis>
         <xyz>0 -1 0</xyz>
         <limit>
-          <lower>-3.14</lower>
-          <upper>3.14</upper>
+          <lower>-1.57</lower>
+          <upper>1.57</upper>
           <effort>100</effort>
-          <velocity>0.1</velocity>
+          <velocity>10</velocity>
         </limit>
         <dynamics>
-          <damping>0.1</damping>
-          <friction>0.1</friction>
+          <damping>1</damping>
+          <friction>0.01</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
         </dynamics>
@@ -292,14 +292,14 @@
       <axis>
         <xyz>0 -1 0</xyz>
         <limit>
-          <lower>-3.14</lower>
-          <upper>3.14</upper>
+          <lower>-1.57</lower>
+          <upper>1.57</upper>
           <effort>100</effort>
-          <velocity>0.1</velocity>
+          <velocity>10</velocity>
         </limit>
         <dynamics>
-          <damping>0.1</damping>
-          <friction>0.1</friction>
+          <damping>1</damping>
+          <friction>0.01</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
         </dynamics>
@@ -343,14 +343,14 @@
       <axis>
         <xyz>0 -1 0</xyz>
         <limit>
-          <lower>-3.14</lower>
-          <upper>3.14</upper>
+          <lower>-1.57</lower>
+          <upper>1.57</upper>
           <effort>100</effort>
-          <velocity>0.1</velocity>
+          <velocity>10</velocity>
         </limit>
         <dynamics>
-          <damping>0.1</damping>
-          <friction>0.1</friction>
+          <damping>1</damping>
+          <friction>0.01</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
         </dynamics>
@@ -394,14 +394,14 @@
       <axis>
         <xyz>0 -1 0</xyz>
         <limit>
-          <lower>-3.14</lower>
-          <upper>3.14</upper>
+          <lower>-1.57</lower>
+          <upper>1.57</upper>
           <effort>100</effort>
-          <velocity>0.1</velocity>
+          <velocity>10</velocity>
         </limit>
         <dynamics>
-          <damping>0.1</damping>
-          <friction>0.1</friction>
+          <damping>1</damping>
+          <friction>0.01</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
         </dynamics>

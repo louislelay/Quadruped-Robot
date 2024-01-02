@@ -10,8 +10,8 @@
 	<xacro:include filename="inertias.xacro"/>
 
 	<!-- Property Definition -->
-	<xacro:property name="joint_limit_low" value="-3.14"/>
-	<xacro:property name="joint_limit_up" value="3.14"/>
+	<xacro:property name="joint_limit_low" value="-1.57"/>
+	<xacro:property name="joint_limit_up" value="1.57"/>
 
 	<!-- Macros for Links and Joints -->
 	<xacro:macro name="create_link" params="name base_size x y z material:=grey">
@@ -41,8 +41,8 @@
 			<child link="${child}"/>
 			<origin xyz="${x} ${y} ${z}"/>
 			<axis xyz="0 -1 0"/>
-			<limit lower="${joint_limit_low}" upper="${joint_limit_up}" effort="100" velocity="0.1"/>
-			<dynamics damping="0.1" friction="0.1"/>
+			<limit lower="${joint_limit_low}" upper="${joint_limit_up}" effort="100" velocity="10"/>
+			<dynamics damping="1" friction="0.01"/>
 		</joint>
 	</xacro:macro>
 
