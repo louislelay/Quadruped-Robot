@@ -14,7 +14,7 @@
 
     <!-- Pose -->
     <include>
-      <uri>model://quadruped_robot_fixed</uri>
+      <uri>model://quadruped_fixed</uri>
       <pose>0 0 2.0 0 0 0</pose>
     </include>
   </world>

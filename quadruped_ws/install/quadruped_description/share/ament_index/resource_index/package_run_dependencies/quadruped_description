@@ -1,1 +1,1 @@
-/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/quadruped_description
+ament_index_python;launch;launch_ros;robot_state_publisher;ament_cmake_gtest;ament_lint_auto;ament_lint_common

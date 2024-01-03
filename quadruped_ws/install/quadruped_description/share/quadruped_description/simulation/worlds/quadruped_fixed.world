@@ -1,1 +1,21 @@
-/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description/simulation/worlds/quadruped_fixed.world
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <world name="Quadruped Robot Fixed Demo">
+  
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    
+    <!-- A ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Pose -->
+    <include>
+      <uri>model://quadruped_fixed</uri>
+      <pose>0 0 2.0 0 0 0</pose>
+    </include>
+  </world>
+</sdf>

@@ -1,1 +1,2 @@
-/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/ament_cmake_environment_hooks/local_setup.dsv
+source;share/quadruped_description/environment/ament_prefix_path.sh
+source;share/quadruped_description/environment/path.sh

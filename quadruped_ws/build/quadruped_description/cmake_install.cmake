@@ -43,7 +43,78 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadruped_description" TYPE DIRECTORY FILES "/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description/urdf")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadruped_description" TYPE DIRECTORY FILES "/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description/simulation")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadruped_description" TYPE DIRECTORY FILES "/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description/launch")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadruped_description" TYPE DIRECTORY FILES "/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description/config")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/quadruped_description")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/quadruped_description")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadruped_description/environment" TYPE FILE FILES "/opt/ros/iron/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadruped_description/environment" TYPE FILE FILES "/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadruped_description/environment" TYPE FILE FILES "/opt/ros/iron/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadruped_description/environment" TYPE FILE FILES "/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadruped_description" TYPE FILE FILES "/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadruped_description" TYPE FILE FILES "/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadruped_description" TYPE FILE FILES "/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadruped_description" TYPE FILE FILES "/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadruped_description" TYPE FILE FILES "/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/ament_cmake_index/share/ament_index/resource_index/packages/quadruped_description")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadruped_description/cmake" TYPE FILE FILES
+    "/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/ament_cmake_core/quadruped_descriptionConfig.cmake"
+    "/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description/ament_cmake_core/quadruped_descriptionConfig-version.cmake"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/quadruped_description" TYPE FILE FILES "/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

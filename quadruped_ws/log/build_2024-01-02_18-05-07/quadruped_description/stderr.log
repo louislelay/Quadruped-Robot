@@ -1,7 +1,0 @@
-/bin/sh: 1: cannot create simulation/models/quadruped_fixed/quadruped_fixed.sdf: Directory nonexistent
-gmake[2]: *** [CMakeFiles/quadruped_description_generated.dir/build.make:78: /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description/simulation/models/quadruped_fixed/quadruped_fixed.sdf] Error 2
-gmake[2]: *** Waiting for unfinished jobs....
-/bin/sh: 1: cannot create simulation/models/quadruped/quadruped.sdf: Directory nonexistent
-gmake[2]: *** [CMakeFiles/quadruped_description_generated.dir/build.make:74: /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/quadruped_description/simulation/models/quadruped/quadruped.sdf] Error 2
-gmake[1]: *** [CMakeFiles/Makefile2:381: CMakeFiles/quadruped_description_generated.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

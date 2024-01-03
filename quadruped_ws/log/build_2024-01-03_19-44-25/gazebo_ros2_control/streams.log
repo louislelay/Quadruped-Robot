@@ -1,0 +1,35 @@
+[0.238s] Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/iron /home/louis/.local/bin/cmake /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control
+[0.384s] -- The C compiler identification is GNU 11.4.0
+[0.497s] -- The CXX compiler identification is GNU 11.4.0
+[0.518s] -- Detecting C compiler ABI info
+[0.640s] -- Detecting C compiler ABI info - done
+[0.663s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.663s] -- Detecting C compile features
+[0.664s] -- Detecting C compile features - done
+[0.671s] -- Detecting CXX compiler ABI info
+[0.800s] -- Detecting CXX compiler ABI info - done
+[0.824s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.825s] -- Detecting CXX compile features
+[0.829s] -- Detecting CXX compile features - done
+[0.834s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.845s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.012s] -- Found angles: 1.16.0 (/opt/ros/iron/share/angles/cmake)
+[2.037s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[2.038s]   By not providing "Findcontroller_manager.cmake" in CMAKE_MODULE_PATH this
+[2.038s]   project has asked CMake to find a package configuration file provided by
+[2.038s]   "controller_manager", but CMake did not find one.
+[2.038s] 
+[2.038s]   Could not find a package configuration file provided by
+[2.038s]   "controller_manager" with any of the following names:
+[2.038s] 
+[2.038s]     controller_managerConfig.cmake
+[2.039s]     controller_manager-config.cmake
+[2.039s] 
+[2.039s]   Add the installation prefix of "controller_manager" to CMAKE_PREFIX_PATH or
+[2.039s]   set "controller_manager_DIR" to a directory containing one of the above
+[2.039s]   files.  If "controller_manager" provides a separate development package or
+[2.039s]   SDK, be sure it has been installed.
+[2.039s] 
+[2.039s] [0m
+[2.040s] -- Configuring incomplete, errors occurred!
+[2.052s] Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /home/louis/.local/bin/cmake /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control

@@ -1,0 +1,618 @@
+[0.000000] (-) TimerEvent: {}
+[0.000872] (gazebo_ros2_control) JobQueued: {'identifier': 'gazebo_ros2_control', 'dependencies': OrderedDict()}
+[0.000964] (quadruped_description) JobQueued: {'identifier': 'quadruped_description', 'dependencies': OrderedDict()}
+[0.001122] (gazebo_ros2_control) JobStarted: {'identifier': 'gazebo_ros2_control'}
+[0.099398] (-) TimerEvent: {}
+[0.113468] (quadruped_description) JobStarted: {'identifier': 'quadruped_description'}
+[0.199528] (-) TimerEvent: {}
+[0.231369] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'cmake'}
+[0.232298] (gazebo_ros2_control) Command: {'cmd': ['/home/louis/.local/bin/cmake', '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros2_control', '-DCMAKE_INSTALL_PREFIX=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control'], 'cwd': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'louis'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/louis'), ('OLDPWD', '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2033'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4958de401be2a3988aaf2931658c12f5'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'louis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'louis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/louis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/louis-X540LA:@/tmp/.ICE-unix/2033,unix/louis-X540LA:/tmp/.ICE-unix/2033'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/aedede33_89d3_4921_b783_ce0faff8f413'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.613'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4958de401be2a3988aaf2931658c12f5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.239311] (quadruped_description) JobProgress: {'identifier': 'quadruped_description', 'progress': 'cmake'}
+[0.240313] (quadruped_description) JobProgress: {'identifier': 'quadruped_description', 'progress': 'build'}
+[0.241523] (quadruped_description) Command: {'cmd': ['/home/louis/.local/bin/cmake', '--build', '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description', '--', '-j4', '-l4'], 'cwd': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'louis'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/louis'), ('OLDPWD', '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2033'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4958de401be2a3988aaf2931658c12f5'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'louis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'louis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/louis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/louis-X540LA:@/tmp/.ICE-unix/2033,unix/louis-X540LA:/tmp/.ICE-unix/2033'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/aedede33_89d3_4921_b783_ce0faff8f413'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.613'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4958de401be2a3988aaf2931658c12f5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.296628] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.299666] (-) TimerEvent: {}
+[0.325935] (quadruped_description) StdoutLine: {'line': b'[ 16%] Built target quadruped_description_fixed_urdf\n'}
+[0.326900] (quadruped_description) StdoutLine: {'line': b'[ 33%] Built target quadruped_description_urdf\n'}
+[0.345055] (quadruped_description) StdoutLine: {'line': b'[100%] Built target quadruped_description_generated\n'}
+[0.362331] (quadruped_description) CommandEnded: {'returncode': 0}
+[0.399795] (-) TimerEvent: {}
+[0.455579] (quadruped_description) JobProgress: {'identifier': 'quadruped_description', 'progress': 'install'}
+[0.499919] (-) TimerEvent: {}
+[0.514334] (quadruped_description) Command: {'cmd': ['/home/louis/.local/bin/cmake', '--install', '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description'], 'cwd': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'louis'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/louis'), ('OLDPWD', '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2033'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4958de401be2a3988aaf2931658c12f5'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'louis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'louis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/louis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/louis-X540LA:@/tmp/.ICE-unix/2033,unix/louis-X540LA:/tmp/.ICE-unix/2033'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/aedede33_89d3_4921_b783_ce0faff8f413'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.613'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/quadruped_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4958de401be2a3988aaf2931658c12f5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.544039] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found angles: 1.16.0 (/opt/ros/iron/share/angles/cmake)\n'}
+[0.550058] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found controller_manager: 3.21.2 (/opt/ros/iron/share/controller_manager/cmake)\n'}
+[0.568447] (quadruped_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.569125] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/urdf\n'}
+[0.569676] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/urdf/inertias.xacro\n'}
+[0.570259] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/urdf/quadruped_fixed.urdf\n'}
+[0.570641] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/urdf/materials.xacro\n'}
+[0.571094] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/urdf/quadruped.xacro\n'}
+[0.571375] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/urdf/gazebo.xacro\n'}
+[0.571640] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/urdf/quadruped.urdf\n'}
+[0.571924] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/simulation\n'}
+[0.572347] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/simulation/models\n'}
+[0.572634] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/simulation/models/quadruped\n'}
+[0.572906] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/simulation/models/quadruped/quadruped.sdf\n'}
+[0.573147] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/simulation/models/quadruped/model.config\n'}
+[0.573368] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/simulation/models/quadruped_fixed\n'}
+[0.573588] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/simulation/models/quadruped_fixed/quadruped_fixed.sdf\n'}
+[0.573818] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/simulation/models/quadruped_fixed/model.config\n'}
+[0.574035] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/simulation/worlds\n'}
+[0.574246] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/simulation/worlds/quadruped_fixed.world\n'}
+[0.574469] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/simulation/worlds/quadruped.world\n'}
+[0.574671] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/launch\n'}
+[0.574867] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/launch/quadruped_simulation.launch.py\n'}
+[0.575103] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/config\n'}
+[0.575323] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/config/quadruped.rviz\n'}
+[0.575532] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/ament_index/resource_index/package_run_dependencies/quadruped_description\n'}
+[0.575763] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/ament_index/resource_index/parent_prefix_path/quadruped_description\n'}
+[0.576017] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/environment/ament_prefix_path.sh\n'}
+[0.576261] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/environment/ament_prefix_path.dsv\n'}
+[0.576538] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/environment/path.sh\n'}
+[0.576769] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/environment/path.dsv\n'}
+[0.577152] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/local_setup.bash\n'}
+[0.577395] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/local_setup.sh\n'}
+[0.577638] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/local_setup.zsh\n'}
+[0.577880] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/local_setup.dsv\n'}
+[0.578117] (quadruped_description) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/package.dsv\n'}
+[0.578349] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/ament_index/resource_index/packages/quadruped_description\n'}
+[0.578580] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/cmake/quadruped_descriptionConfig.cmake\n'}
+[0.578827] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/cmake/quadruped_descriptionConfig-version.cmake\n'}
+[0.579062] (quadruped_description) StdoutLine: {'line': b'-- Up-to-date: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/quadruped_description/share/quadruped_description/package.xml\n'}
+[0.582308] (quadruped_description) CommandEnded: {'returncode': 0}
+[0.600164] (-) TimerEvent: {}
+[0.702043] (-) TimerEvent: {}
+[0.711035] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.760475] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.802173] (-) TimerEvent: {}
+[0.815252] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.868983] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.902750] (-) TimerEvent: {}
+[1.003452] (-) TimerEvent: {}
+[1.030906] (quadruped_description) JobEnded: {'identifier': 'quadruped_description', 'rc': 0}
+[1.103622] (-) TimerEvent: {}
+[1.204007] (-) TimerEvent: {}
+[1.304414] (-) TimerEvent: {}
+[1.404795] (-) TimerEvent: {}
+[1.505195] (-) TimerEvent: {}
+[1.605591] (-) TimerEvent: {}
+[1.706023] (-) TimerEvent: {}
+[1.806424] (-) TimerEvent: {}
+[1.906819] (-) TimerEvent: {}
+[2.007214] (-) TimerEvent: {}
+[2.107597] (-) TimerEvent: {}
+[2.207980] (-) TimerEvent: {}
+[2.308378] (-) TimerEvent: {}
+[2.408789] (-) TimerEvent: {}
+[2.509283] (-) TimerEvent: {}
+[2.609676] (-) TimerEvent: {}
+[2.710068] (-) TimerEvent: {}
+[2.810455] (-) TimerEvent: {}
+[2.874620] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[2.879738] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.910582] (-) TimerEvent: {}
+[2.985336] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[3.010717] (-) TimerEvent: {}
+[3.067249] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.074373] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[3.107484] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[3.110822] (-) TimerEvent: {}
+[3.124032] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[3.142272] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[3.166802] (gazebo_ros2_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.210962] (-) TimerEvent: {}
+[3.311413] (-) TimerEvent: {}
+[3.411864] (-) TimerEvent: {}
+[3.512313] (-) TimerEvent: {}
+[3.612761] (-) TimerEvent: {}
+[3.713233] (-) TimerEvent: {}
+[3.813674] (-) TimerEvent: {}
+[3.914110] (-) TimerEvent: {}
+[4.014566] (-) TimerEvent: {}
+[4.115013] (-) TimerEvent: {}
+[4.215468] (-) TimerEvent: {}
+[4.315906] (-) TimerEvent: {}
+[4.416412] (-) TimerEvent: {}
+[4.516847] (-) TimerEvent: {}
+[4.617310] (-) TimerEvent: {}
+[4.675048] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_dev: 3.7.0 (/opt/ros/iron/share/gazebo_dev/cmake)\n'}
+[4.687866] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[4.690952] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[4.711547] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[4.717436] (-) TimerEvent: {}
+[4.817848] (-) TimerEvent: {}
+[4.901188] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[4.917989] (-) TimerEvent: {}
+[4.981391] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[5.018117] (-) TimerEvent: {}
+[5.033859] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[5.099443] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[5.118248] (-) TimerEvent: {}
+[5.142317] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[5.154788] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[5.172145] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[5.177057] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[5.177974] (gazebo_ros2_control) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[5.187452] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[5.206559] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[5.218385] (-) TimerEvent: {}
+[5.266073] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[5.287710] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[5.308848] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[5.318516] (-) TimerEvent: {}
+[5.327309] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[5.327769] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[5.345400] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[5.345817] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[5.364737] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[5.365158] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[5.382698] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[5.383084] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[5.402357] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[5.402744] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[5.418647] (-) TimerEvent: {}
+[5.420414] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[5.518782] (-) TimerEvent: {}
+[5.619185] (-) TimerEvent: {}
+[5.719581] (-) TimerEvent: {}
+[5.796202] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[5.806454] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[5.807719] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[5.819706] (-) TimerEvent: {}
+[5.841286] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[5.863241] (gazebo_ros2_control) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[5.872178] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[5.897054] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[5.919831] (-) TimerEvent: {}
+[5.955309] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[5.973073] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[5.993239] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[6.019979] (-) TimerEvent: {}
+[6.044897] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[6.056020] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[6.056596] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[6.092905] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[6.103021] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[6.120114] (-) TimerEvent: {}
+[6.123481] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[6.179266] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[6.183790] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[6.184217] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[6.185220] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[6.187222] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[6.190194] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[6.213310] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[6.215075] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[6.219165] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[6.219623] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[6.220190] (-) TimerEvent: {}
+[6.220466] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[6.226393] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[6.226747] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[6.320340] (-) TimerEvent: {}
+[6.367301] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[6.386588] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[6.407143] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[6.420476] (-) TimerEvent: {}
+[6.460322] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[6.473348] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[6.493602] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[6.520618] (-) TimerEvent: {}
+[6.545612] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[6.546791] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[6.548045] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[6.549979] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[6.564654] (gazebo_ros2_control) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[6.565399] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[6.587291] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[6.620745] (-) TimerEvent: {}
+[6.641236] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/iron/share/gazebo_ros/cmake)\n'}
+[6.666974] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.1.2 (/opt/ros/iron/share/yaml_cpp_vendor/cmake)\n'}
+[6.720906] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.0.3 (/opt/ros/iron/share/ament_cmake_gtest/cmake)\n'}
+[6.721169] (-) TimerEvent: {}
+[6.724240] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[6.821300] (-) TimerEvent: {}
+[6.887066] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.889802] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.890838] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros2_control/include\n'}
+[6.891052] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.892906] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.893131] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.894530] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.896847] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.897108] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.898193] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.901978] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configuring done (6.6s)\n'}
+[6.921430] (-) TimerEvent: {}
+[6.992890] (gazebo_ros2_control) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.998810] (gazebo_ros2_control) StdoutLine: {'line': b'-- Build files have been written to: /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control\n'}
+[7.021560] (-) TimerEvent: {}
+[7.027595] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[7.028985] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'build'}
+[7.030488] (gazebo_ros2_control) Command: {'cmd': ['/home/louis/.local/bin/cmake', '--build', '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control', '--', '-j4', '-l4'], 'cwd': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'louis'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/louis'), ('OLDPWD', '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2033'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4958de401be2a3988aaf2931658c12f5'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'louis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'louis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/louis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/louis-X540LA:@/tmp/.ICE-unix/2033,unix/louis-X540LA:/tmp/.ICE-unix/2033'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/aedede33_89d3_4921_b783_ce0faff8f413'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.613'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4958de401be2a3988aaf2931658c12f5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[7.121711] (-) TimerEvent: {}
+[7.122436] (gazebo_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o\x1b[0m\n'}
+[7.122797] (gazebo_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[7.221849] (-) TimerEvent: {}
+[7.322354] (-) TimerEvent: {}
+[7.422853] (-) TimerEvent: {}
+[7.523381] (-) TimerEvent: {}
+[7.623883] (-) TimerEvent: {}
+[7.724381] (-) TimerEvent: {}
+[7.824913] (-) TimerEvent: {}
+[7.925425] (-) TimerEvent: {}
+[8.025921] (-) TimerEvent: {}
+[8.126394] (-) TimerEvent: {}
+[8.226903] (-) TimerEvent: {}
+[8.327384] (-) TimerEvent: {}
+[8.427890] (-) TimerEvent: {}
+[8.528291] (-) TimerEvent: {}
+[8.628676] (-) TimerEvent: {}
+[8.729159] (-) TimerEvent: {}
+[8.829610] (-) TimerEvent: {}
+[8.930037] (-) TimerEvent: {}
+[9.030419] (-) TimerEvent: {}
+[9.130961] (-) TimerEvent: {}
+[9.231470] (-) TimerEvent: {}
+[9.331954] (-) TimerEvent: {}
+[9.432473] (-) TimerEvent: {}
+[9.532902] (-) TimerEvent: {}
+[9.633343] (-) TimerEvent: {}
+[9.733816] (-) TimerEvent: {}
+[9.834399] (-) TimerEvent: {}
+[9.934836] (-) TimerEvent: {}
+[10.035331] (-) TimerEvent: {}
+[10.135763] (-) TimerEvent: {}
+[10.236213] (-) TimerEvent: {}
+[10.336615] (-) TimerEvent: {}
+[10.437043] (-) TimerEvent: {}
+[10.537540] (-) TimerEvent: {}
+[10.640536] (-) TimerEvent: {}
+[10.740970] (-) TimerEvent: {}
+[10.841453] (-) TimerEvent: {}
+[10.941998] (-) TimerEvent: {}
+[11.042493] (-) TimerEvent: {}
+[11.142989] (-) TimerEvent: {}
+[11.243549] (-) TimerEvent: {}
+[11.344061] (-) TimerEvent: {}
+[11.444482] (-) TimerEvent: {}
+[11.544922] (-) TimerEvent: {}
+[11.645575] (-) TimerEvent: {}
+[11.746132] (-) TimerEvent: {}
+[11.846659] (-) TimerEvent: {}
+[11.947532] (-) TimerEvent: {}
+[12.048060] (-) TimerEvent: {}
+[12.148583] (-) TimerEvent: {}
+[12.249078] (-) TimerEvent: {}
+[12.349625] (-) TimerEvent: {}
+[12.450179] (-) TimerEvent: {}
+[12.550729] (-) TimerEvent: {}
+[12.651257] (-) TimerEvent: {}
+[12.751729] (-) TimerEvent: {}
+[12.852280] (-) TimerEvent: {}
+[12.952842] (-) TimerEvent: {}
+[13.053400] (-) TimerEvent: {}
+[13.153887] (-) TimerEvent: {}
+[13.254419] (-) TimerEvent: {}
+[13.354930] (-) TimerEvent: {}
+[13.455426] (-) TimerEvent: {}
+[13.555895] (-) TimerEvent: {}
+[13.656396] (-) TimerEvent: {}
+[13.757051] (-) TimerEvent: {}
+[13.857568] (-) TimerEvent: {}
+[13.958061] (-) TimerEvent: {}
+[14.058558] (-) TimerEvent: {}
+[14.159201] (-) TimerEvent: {}
+[14.259670] (-) TimerEvent: {}
+[14.360218] (-) TimerEvent: {}
+[14.460756] (-) TimerEvent: {}
+[14.561309] (-) TimerEvent: {}
+[14.661860] (-) TimerEvent: {}
+[14.762362] (-) TimerEvent: {}
+[14.862816] (-) TimerEvent: {}
+[14.963259] (-) TimerEvent: {}
+[15.063713] (-) TimerEvent: {}
+[15.164212] (-) TimerEvent: {}
+[15.264691] (-) TimerEvent: {}
+[15.365211] (-) TimerEvent: {}
+[15.465741] (-) TimerEvent: {}
+[15.566232] (-) TimerEvent: {}
+[15.666699] (-) TimerEvent: {}
+[15.767253] (-) TimerEvent: {}
+[15.867780] (-) TimerEvent: {}
+[15.968240] (-) TimerEvent: {}
+[16.068683] (-) TimerEvent: {}
+[16.169188] (-) TimerEvent: {}
+[16.269733] (-) TimerEvent: {}
+[16.370291] (-) TimerEvent: {}
+[16.470849] (-) TimerEvent: {}
+[16.571440] (-) TimerEvent: {}
+[16.672010] (-) TimerEvent: {}
+[16.772569] (-) TimerEvent: {}
+[16.873164] (-) TimerEvent: {}
+[16.973683] (-) TimerEvent: {}
+[17.074141] (-) TimerEvent: {}
+[17.175007] (-) TimerEvent: {}
+[17.275559] (-) TimerEvent: {}
+[17.376095] (-) TimerEvent: {}
+[17.476668] (-) TimerEvent: {}
+[17.577211] (-) TimerEvent: {}
+[17.677681] (-) TimerEvent: {}
+[17.778167] (-) TimerEvent: {}
+[17.878655] (-) TimerEvent: {}
+[17.979134] (-) TimerEvent: {}
+[18.079609] (-) TimerEvent: {}
+[18.180095] (-) TimerEvent: {}
+[18.280621] (-) TimerEvent: {}
+[18.381191] (-) TimerEvent: {}
+[18.481686] (-) TimerEvent: {}
+[18.582141] (-) TimerEvent: {}
+[18.682688] (-) TimerEvent: {}
+[18.783256] (-) TimerEvent: {}
+[18.883706] (-) TimerEvent: {}
+[18.984184] (-) TimerEvent: {}
+[19.084669] (-) TimerEvent: {}
+[19.185215] (-) TimerEvent: {}
+[19.285687] (-) TimerEvent: {}
+[19.386166] (-) TimerEvent: {}
+[19.486684] (-) TimerEvent: {}
+[19.587184] (-) TimerEvent: {}
+[19.687681] (-) TimerEvent: {}
+[19.788145] (-) TimerEvent: {}
+[19.888644] (-) TimerEvent: {}
+[19.989200] (-) TimerEvent: {}
+[20.089747] (-) TimerEvent: {}
+[20.190294] (-) TimerEvent: {}
+[20.290810] (-) TimerEvent: {}
+[20.391364] (-) TimerEvent: {}
+[20.491988] (-) TimerEvent: {}
+[20.592476] (-) TimerEvent: {}
+[20.692992] (-) TimerEvent: {}
+[20.793443] (-) TimerEvent: {}
+[20.893935] (-) TimerEvent: {}
+[20.994414] (-) TimerEvent: {}
+[21.094913] (-) TimerEvent: {}
+[21.195451] (-) TimerEvent: {}
+[21.295903] (-) TimerEvent: {}
+[21.396394] (-) TimerEvent: {}
+[21.496840] (-) TimerEvent: {}
+[21.597336] (-) TimerEvent: {}
+[21.697809] (-) TimerEvent: {}
+[21.798244] (-) TimerEvent: {}
+[21.898636] (-) TimerEvent: {}
+[21.999088] (-) TimerEvent: {}
+[22.099537] (-) TimerEvent: {}
+[22.200006] (-) TimerEvent: {}
+[22.300507] (-) TimerEvent: {}
+[22.401062] (-) TimerEvent: {}
+[22.501621] (-) TimerEvent: {}
+[22.602184] (-) TimerEvent: {}
+[22.702673] (-) TimerEvent: {}
+[22.803158] (-) TimerEvent: {}
+[22.903622] (-) TimerEvent: {}
+[23.004115] (-) TimerEvent: {}
+[23.104684] (-) TimerEvent: {}
+[23.205282] (-) TimerEvent: {}
+[23.305793] (-) TimerEvent: {}
+[23.406297] (-) TimerEvent: {}
+[23.506823] (-) TimerEvent: {}
+[23.607275] (-) TimerEvent: {}
+[23.707825] (-) TimerEvent: {}
+[23.808267] (-) TimerEvent: {}
+[23.908709] (-) TimerEvent: {}
+[24.009163] (-) TimerEvent: {}
+[24.109607] (-) TimerEvent: {}
+[24.210200] (-) TimerEvent: {}
+[24.310771] (-) TimerEvent: {}
+[24.413023] (-) TimerEvent: {}
+[24.513828] (-) TimerEvent: {}
+[24.614381] (-) TimerEvent: {}
+[24.714953] (-) TimerEvent: {}
+[24.815497] (-) TimerEvent: {}
+[24.915987] (-) TimerEvent: {}
+[25.016654] (-) TimerEvent: {}
+[25.117208] (-) TimerEvent: {}
+[25.217713] (-) TimerEvent: {}
+[25.318265] (-) TimerEvent: {}
+[25.418798] (-) TimerEvent: {}
+[25.519274] (-) TimerEvent: {}
+[25.619735] (-) TimerEvent: {}
+[25.720202] (-) TimerEvent: {}
+[25.820835] (-) TimerEvent: {}
+[25.921357] (-) TimerEvent: {}
+[26.021996] (-) TimerEvent: {}
+[26.122505] (-) TimerEvent: {}
+[26.223030] (-) TimerEvent: {}
+[26.323505] (-) TimerEvent: {}
+[26.423956] (-) TimerEvent: {}
+[26.524440] (-) TimerEvent: {}
+[26.625128] (-) TimerEvent: {}
+[26.725615] (-) TimerEvent: {}
+[26.826132] (-) TimerEvent: {}
+[26.926534] (-) TimerEvent: {}
+[27.026937] (-) TimerEvent: {}
+[27.127696] (-) TimerEvent: {}
+[27.228356] (-) TimerEvent: {}
+[27.328884] (-) TimerEvent: {}
+[27.429372] (-) TimerEvent: {}
+[27.529837] (-) TimerEvent: {}
+[27.630304] (-) TimerEvent: {}
+[27.730772] (-) TimerEvent: {}
+[27.831260] (-) TimerEvent: {}
+[27.931731] (-) TimerEvent: {}
+[28.032187] (-) TimerEvent: {}
+[28.132650] (-) TimerEvent: {}
+[28.233236] (-) TimerEvent: {}
+[28.333715] (-) TimerEvent: {}
+[28.434256] (-) TimerEvent: {}
+[28.534727] (-) TimerEvent: {}
+[28.635202] (-) TimerEvent: {}
+[28.735718] (-) TimerEvent: {}
+[28.836211] (-) TimerEvent: {}
+[28.936715] (-) TimerEvent: {}
+[29.037234] (-) TimerEvent: {}
+[29.137728] (-) TimerEvent: {}
+[29.238235] (-) TimerEvent: {}
+[29.338739] (-) TimerEvent: {}
+[29.439224] (-) TimerEvent: {}
+[29.539715] (-) TimerEvent: {}
+[29.640172] (-) TimerEvent: {}
+[29.740638] (-) TimerEvent: {}
+[29.841292] (-) TimerEvent: {}
+[29.941741] (-) TimerEvent: {}
+[30.042204] (-) TimerEvent: {}
+[30.142656] (-) TimerEvent: {}
+[30.243184] (-) TimerEvent: {}
+[30.343646] (-) TimerEvent: {}
+[30.444110] (-) TimerEvent: {}
+[30.544639] (-) TimerEvent: {}
+[30.645145] (-) TimerEvent: {}
+[30.745643] (-) TimerEvent: {}
+[30.846118] (-) TimerEvent: {}
+[30.946561] (-) TimerEvent: {}
+[31.047001] (-) TimerEvent: {}
+[31.147468] (-) TimerEvent: {}
+[31.247913] (-) TimerEvent: {}
+[31.348401] (-) TimerEvent: {}
+[31.448897] (-) TimerEvent: {}
+[31.550063] (-) TimerEvent: {}
+[31.650530] (-) TimerEvent: {}
+[31.750929] (-) TimerEvent: {}
+[31.851401] (-) TimerEvent: {}
+[31.951885] (-) TimerEvent: {}
+[32.052350] (-) TimerEvent: {}
+[32.152791] (-) TimerEvent: {}
+[32.253256] (-) TimerEvent: {}
+[32.353847] (-) TimerEvent: {}
+[32.454355] (-) TimerEvent: {}
+[32.554857] (-) TimerEvent: {}
+[32.656772] (-) TimerEvent: {}
+[32.757518] (-) TimerEvent: {}
+[32.858178] (-) TimerEvent: {}
+[32.958648] (-) TimerEvent: {}
+[33.059192] (-) TimerEvent: {}
+[33.159739] (-) TimerEvent: {}
+[33.260251] (-) TimerEvent: {}
+[33.360788] (-) TimerEvent: {}
+[33.461313] (-) TimerEvent: {}
+[33.561805] (-) TimerEvent: {}
+[33.662327] (-) TimerEvent: {}
+[33.762773] (-) TimerEvent: {}
+[33.863286] (-) TimerEvent: {}
+[33.963839] (-) TimerEvent: {}
+[34.064484] (-) TimerEvent: {}
+[34.136566] (gazebo_ros2_control) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_hardware_plugins.so\x1b[0m\n'}
+[34.164623] (-) TimerEvent: {}
+[34.265136] (-) TimerEvent: {}
+[34.365608] (-) TimerEvent: {}
+[34.466161] (-) TimerEvent: {}
+[34.566632] (-) TimerEvent: {}
+[34.667082] (-) TimerEvent: {}
+[34.767624] (-) TimerEvent: {}
+[34.868131] (-) TimerEvent: {}
+[34.968938] (-) TimerEvent: {}
+[35.069753] (-) TimerEvent: {}
+[35.170183] (-) TimerEvent: {}
+[35.270609] (-) TimerEvent: {}
+[35.371127] (-) TimerEvent: {}
+[35.471655] (-) TimerEvent: {}
+[35.549970] (gazebo_ros2_control) StdoutLine: {'line': b'[ 75%] Built target gazebo_hardware_plugins\n'}
+[35.571792] (-) TimerEvent: {}
+[35.672270] (-) TimerEvent: {}
+[35.772751] (-) TimerEvent: {}
+[35.873300] (-) TimerEvent: {}
+[35.973733] (-) TimerEvent: {}
+[36.074177] (-) TimerEvent: {}
+[36.174617] (-) TimerEvent: {}
+[36.275049] (-) TimerEvent: {}
+[36.375492] (-) TimerEvent: {}
+[36.475930] (-) TimerEvent: {}
+[36.576359] (-) TimerEvent: {}
+[36.676796] (-) TimerEvent: {}
+[36.777255] (-) TimerEvent: {}
+[36.877697] (-) TimerEvent: {}
+[36.978141] (-) TimerEvent: {}
+[37.078591] (-) TimerEvent: {}
+[37.179034] (-) TimerEvent: {}
+[37.279470] (-) TimerEvent: {}
+[37.379917] (-) TimerEvent: {}
+[37.480354] (-) TimerEvent: {}
+[37.580791] (-) TimerEvent: {}
+[37.681265] (-) TimerEvent: {}
+[37.781706] (-) TimerEvent: {}
+[37.882152] (-) TimerEvent: {}
+[37.982589] (-) TimerEvent: {}
+[38.083047] (-) TimerEvent: {}
+[38.183491] (-) TimerEvent: {}
+[38.283923] (-) TimerEvent: {}
+[38.384373] (-) TimerEvent: {}
+[38.484827] (-) TimerEvent: {}
+[38.585315] (-) TimerEvent: {}
+[38.685753] (-) TimerEvent: {}
+[38.786574] (-) TimerEvent: {}
+[38.887002] (-) TimerEvent: {}
+[38.987422] (-) TimerEvent: {}
+[39.087885] (-) TimerEvent: {}
+[39.188420] (-) TimerEvent: {}
+[39.276757] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros2_control.so\x1b[0m\n'}
+[39.288546] (-) TimerEvent: {}
+[39.389077] (-) TimerEvent: {}
+[39.489840] (-) TimerEvent: {}
+[39.590384] (-) TimerEvent: {}
+[39.691089] (-) TimerEvent: {}
+[39.791768] (-) TimerEvent: {}
+[39.892394] (-) TimerEvent: {}
+[39.993033] (-) TimerEvent: {}
+[40.093510] (-) TimerEvent: {}
+[40.194038] (-) TimerEvent: {}
+[40.294545] (-) TimerEvent: {}
+[40.395064] (-) TimerEvent: {}
+[40.495512] (-) TimerEvent: {}
+[40.595926] (-) TimerEvent: {}
+[40.696343] (-) TimerEvent: {}
+[40.738828] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] Built target gazebo_ros2_control\n'}
+[40.761887] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[40.796449] (-) TimerEvent: {}
+[40.879435] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'install'}
+[40.880509] (gazebo_ros2_control) Command: {'cmd': ['/home/louis/.local/bin/cmake', '--install', '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control'], 'cwd': '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'louis'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/louis'), ('OLDPWD', '/home/louis/Documents/Quadruped-Robot/quadruped_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2033'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4958de401be2a3988aaf2931658c12f5'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'louis'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'louis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/louis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/louis-X540LA:@/tmp/.ICE-unix/2033,unix/louis-X540LA:/tmp/.ICE-unix/2033'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/aedede33_89d3_4921_b783_ce0faff8f413'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.613'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4958de401be2a3988aaf2931658c12f5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[40.896592] (-) TimerEvent: {}
+[40.930750] (gazebo_ros2_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[40.931179] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so\n'}
+[40.937836] (gazebo_ros2_control) StdoutLine: {'line': b'-- Set runtime path of "/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so" to ""\n'}
+[40.938214] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so\n'}
+[40.942605] (gazebo_ros2_control) StdoutLine: {'line': b'-- Set runtime path of "/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so" to ""\n'}
+[40.943010] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh\n'}
+[40.943673] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv\n'}
+[40.944291] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/include/gazebo_ros2_control\n'}
+[40.944699] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp\n'}
+[40.945148] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp\n'}
+[40.945426] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp\n'}
+[40.945707] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/gazebo_hardware_plugins.xml\n'}
+[40.947194] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control\n'}
+[40.947865] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control\n'}
+[40.948447] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh\n'}
+[40.948889] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv\n'}
+[40.949342] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh\n'}
+[40.949714] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv\n'}
+[40.950189] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash\n'}
+[40.950911] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh\n'}
+[40.951948] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh\n'}
+[40.952486] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv\n'}
+[40.952933] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv\n'}
+[40.953504] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control\n'}
+[40.953839] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control\n'}
+[40.954326] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[40.954731] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[40.955163] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[40.955666] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake\n'}
+[40.956068] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake\n'}
+[40.956529] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml\n'}
+[40.966240] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[40.996710] (-) TimerEvent: {}
+[41.098822] (-) TimerEvent: {}
+[41.199197] (-) TimerEvent: {}
+[41.299867] (-) TimerEvent: {}
+[41.400266] (-) TimerEvent: {}
+[41.472303] (gazebo_ros2_control) JobEnded: {'identifier': 'gazebo_ros2_control', 'rc': 0}
+[41.474593] (-) EventReactorShutdown: {}

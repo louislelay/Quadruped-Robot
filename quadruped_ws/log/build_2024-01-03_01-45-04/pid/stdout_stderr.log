@@ -1,0 +1,56 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/louis/Documents/Quadruped-Robot/quadruped_ws/src/pid/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/pid
+[ 50%] [32mBuilding CXX object CMakeFiles/pid.dir/src/pid.cpp.o[0m
+[100%] [32m[1mLinking CXX static library libpid.a[0m
+[100%] Built target pid
+-- Install configuration: ""
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/include
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/include/pid
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/include/pid/pid.hpp
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/include/pid/utils.hpp
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/lib/libpid.a
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/ament_index/resource_index/package_run_dependencies/pid
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/ament_index/resource_index/parent_prefix_path/pid
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/pid/environment/ament_prefix_path.sh
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/pid/environment/ament_prefix_path.dsv
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/pid/environment/path.sh
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/pid/environment/path.dsv
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/pid/local_setup.bash
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/pid/local_setup.sh
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/pid/local_setup.zsh
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/pid/local_setup.dsv
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/pid/package.dsv
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/ament_index/resource_index/packages/pid
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/pid/cmake/export_pidExport.cmake
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/pid/cmake/export_pidExport-noconfig.cmake
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/pid/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/pid/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/pid/cmake/pidConfig.cmake
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/pid/cmake/pidConfig-version.cmake
+-- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/pid/share/pid/package.xml

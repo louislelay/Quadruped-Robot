@@ -1,0 +1,147 @@
+[0.237s] Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/iron /home/louis/.local/bin/cmake /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control
+[0.296s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.543s] -- Found angles: 1.16.0 (/opt/ros/iron/share/angles/cmake)
+[0.549s] -- Found controller_manager: 3.21.2 (/opt/ros/iron/share/controller_manager/cmake)
+[0.711s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.761s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.814s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.868s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.874s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.879s] -- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.984s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.066s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.073s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.107s] -- Found FastRTPS: /opt/ros/iron/include  
+[3.123s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.141s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.166s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.674s] -- Found gazebo_dev: 3.7.0 (/opt/ros/iron/share/gazebo_dev/cmake)
+[4.687s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.690s] -- Checking for module 'bullet>=2.82'
+[4.711s] --   Found bullet, version 3.05
+[4.900s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[4.980s] -- Found assimp: /usr/include (found version "5.2.0") 
+[5.033s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[5.099s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[5.141s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[5.154s] -- Looking for ignition-math6 -- found version 6.15.0
+[5.171s] -- Searching for dependencies of ignition-math6
+[5.176s] -- Looking for OGRE...
+[5.177s] -- OGRE_PREFIX_WATCH changed.
+[5.186s] -- Checking for module 'OGRE'
+[5.206s] --   Found OGRE, version 1.9.0
+[5.265s] -- Found Ogre Ghadamon (1.9.0)
+[5.287s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[5.308s] -- Looking for OGRE_Paging...
+[5.326s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[5.327s] -- Looking for OGRE_Terrain...
+[5.344s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[5.345s] -- Looking for OGRE_Property...
+[5.364s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[5.364s] -- Looking for OGRE_RTShaderSystem...
+[5.382s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[5.382s] -- Looking for OGRE_Volume...
+[5.401s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[5.402s] -- Looking for OGRE_Overlay...
+[5.419s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[5.795s] -- Looking for ignition-math6 -- found version 6.15.0
+[5.805s] -- Looking for ignition-transport8 -- found version 8.2.1
+[5.807s] -- Searching for dependencies of ignition-transport8
+[5.840s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[5.862s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[5.871s] -- Checking for module 'libzmq >= 4'
+[5.896s] --   Found libzmq , version 4.3.4
+[5.954s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[5.972s] -- Checking for module 'uuid'
+[5.992s] --   Found uuid, version 2.37.2
+[6.044s] -- Found UUID: TRUE  
+[6.055s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.056s] -- Searching for dependencies of ignition-msgs5
+[6.092s] -- Looking for ignition-math6 -- found version 6.15.0
+[6.102s] -- Checking for module 'tinyxml2'
+[6.123s] --   Found tinyxml2, version 9.0.0
+[6.178s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.183s] -- Looking for ignition-common3 -- found version 3.14.0
+[6.183s] -- Searching for dependencies of ignition-common3
+[6.184s] -- Looking for dlfcn.h - found
+[6.186s] -- Looking for libdl - found
+[6.189s] -- Found DL: TRUE  
+[6.212s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[6.214s] -- Searching for <ignition-common3> component [graphics]
+[6.218s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[6.219s] -- Searching for dependencies of ignition-common3-graphics
+[6.219s] -- Looking for ignition-math6 -- found version 6.15.0
+[6.225s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[6.226s] -- Searching for dependencies of ignition-fuel_tools4
+[6.366s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[6.386s] -- Checking for module 'jsoncpp'
+[6.406s] --   Found jsoncpp, version 1.9.5
+[6.459s] -- Found JSONCPP: TRUE  
+[6.472s] -- Checking for module 'libzip'
+[6.493s] --   Found libzip, version 1.7.3
+[6.545s] -- Found ZIP: TRUE  
+[6.546s] -- Looking for ignition-common3 -- found version 3.14.0
+[6.547s] -- Looking for ignition-math6 -- found version 6.15.0
+[6.549s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.564s] -- Gazebo version: 11.10
+[6.564s] -- Checking for module 'tbb'
+[6.586s] --   Found tbb, version 2021.5.0
+[6.640s] -- Found gazebo_ros: 3.7.0 (/opt/ros/iron/share/gazebo_ros/cmake)
+[6.666s] -- Found yaml_cpp_vendor: 8.1.2 (/opt/ros/iron/share/yaml_cpp_vendor/cmake)
+[6.720s] -- Found ament_cmake_gtest: 2.0.3 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+[6.723s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[6.886s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.889s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.890s] -- Configured cppcheck include dirs: /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros2_control/include
+[6.890s] -- Configured cppcheck exclude dirs and/or files: 
+[6.892s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.892s] -- Configured cpplint exclude dirs and/or files: 
+[6.893s] -- Added test 'lint_cmake' to check CMake code style
+[6.896s] -- Added test 'uncrustify' to check C / C++ code style
+[6.896s] -- Configured uncrustify additional arguments: 
+[6.897s] -- Added test 'xmllint' to check XML markup files
+[6.901s] -- Configuring done (6.6s)
+[6.992s] -- Generating done (0.1s)
+[6.998s] -- Build files have been written to: /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control
+[7.027s] Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /home/louis/.local/bin/cmake /home/louis/Documents/Quadruped-Robot/quadruped_ws/src/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control
+[7.030s] Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control -- -j4 -l4
+[7.121s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o[0m
+[7.122s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o[0m
+[34.142s] [ 75%] [32m[1mLinking CXX shared library libgazebo_hardware_plugins.so[0m
+[35.549s] [ 75%] Built target gazebo_hardware_plugins
+[39.276s] [100%] [32m[1mLinking CXX shared library libgazebo_ros2_control.so[0m
+[40.738s] [100%] Built target gazebo_ros2_control
+[40.764s] Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /home/louis/.local/bin/cmake --build /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control -- -j4 -l4
+[40.881s] Invoking command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/iron /home/louis/.local/bin/cmake --install /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control
+[40.930s] -- Install configuration: ""
+[40.930s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[40.937s] -- Set runtime path of "/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so" to ""
+[40.937s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[40.942s] -- Set runtime path of "/home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so" to ""
+[40.942s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[40.943s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[40.943s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/include/gazebo_ros2_control
+[40.944s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[40.944s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[40.944s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[40.945s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/gazebo_hardware_plugins.xml
+[40.946s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[40.947s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[40.947s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[40.948s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[40.948s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[40.949s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[40.949s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[40.950s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[40.951s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[40.951s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[40.952s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[40.952s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[40.953s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[40.953s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.954s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.954s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[40.955s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[40.955s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[40.955s] -- Installing: /home/louis/Documents/Quadruped-Robot/quadruped_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[40.970s] Invoked command in '/home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /home/louis/.local/bin/cmake --install /home/louis/Documents/Quadruped-Robot/quadruped_ws/build/gazebo_ros2_control

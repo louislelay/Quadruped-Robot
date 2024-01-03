@@ -5,6 +5,7 @@
 	
 	<xacro:include filename="materials.xacro"/>
 	<xacro:include filename="inertias.xacro"/>
+	<xacro:include filename="gazebo.xacro"/>
 
 	<xacro:property name="joint_limit_low" value="-1.57"/>
 	<xacro:property name="joint_limit_up" value="1.57"/>
